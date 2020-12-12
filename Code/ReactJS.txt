@@ -1,0 +1,25 @@
+(Framework) React (app parecido: Angular)
+
+Biblioteca para construção de interfaces
+Utilizado para construção de single-page applications (SPA)
+Serve pra tudo q o usuário vê
+
+usa o conceito SPA: tudo numa página só, sem precisar
+		    recarregar o navegador
+
+Todo o React fica dentro do JS (CSS, Imagens etc)
+
+React: refere-se a biblioteca q e usado nos dois abaixo
+ReactJS: comportamento do react no navegador
+React Native: soma do React com outros elementos
+
+
+Vantagens:
+
+Organização do código, divisão de responsabilidades (back-end: regra de negócio | front-end: interface)
+apenas uma API.
+
+JSX: Html dentro do JS
+
+Babel: converte JS em uma forma q o navegador entenda
+Webpack: ensina o JS como importar arquivos css, imagens etc.
