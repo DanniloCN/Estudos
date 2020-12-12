@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git+https://github.com/DanniloCN/Bootcamp.git",
+  "author": "Dannilo Carlos <dannilocarlos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/DanniloCN/Bootcamp/issues"
+  },
+  "homepage": "https://github.com/DanniloCN/Bootcamp#readme",
+  "keywords": [],
+  "description": ""
+}
