@@ -1,0 +1,19 @@
+Javascript: 
+
+linguagem script (em tempo real) multiplataforma
+executado do lado do cliente e não do lado do servidor
+interage com HTML
+usado no desenvolvimento de apps mobile hibridos (rodando em android e ios)
+
+DOM:
+
+Document Objetc Model - o que faz o JS alterar elementos HTML
+JS pode alterar todos os atributos e estilos de CSS 
+
+-------------------------------------------------
+let a = "a"
+console.log(a.replace("a", "b"));
+R: b
+
+-------------------------
+
