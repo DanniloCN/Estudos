@@ -1,0 +1,14 @@
+position: relative = fica parado na página, mas não podemos posicionar, apenas mudar o tamanho com height e width e não conseguimos sobrepor outras divs
+
+position: fixed = acompanha o scroll, tipo barra superior de sites
+
+position: absolute = fica parado na página, mas podemos posicionar onde quisermos com top, left etc. além de podermos sobrepor as divs tb
+
+z-index: x = troca a posição dos elementos na página
+
+border: (expessura) (cor) = cria uma borda
+
+border-radius: (Superior esquerdo Superior direito Inferior esquerdo Inferior direito) (com espaços, sem virgulas)
+
+top, left = posicionamento
+width e height = tamanho

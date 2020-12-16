@@ -1,0 +1,46 @@
+.container, 
+.balloon,
+.balloon::after, 
+.balloon::before {
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: #E1E4FA;
+  border-radius: 50%;
+}
+
+.balloon {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  top: -100px;
+  background-color: #FF98C0;
+  border: 10px solid #AD91CA;
+}
+
+.balloon::before{
+  content: '';
+  height: 300px;
+  width: 190px;
+  border: 10px solid #AD91CA;
+  background-color: #FFC6E6;
+  border-radius: 50%;
+}
+
+.balloon::after{
+  content: '';
+  height: 300px;
+  width: 60px;
+  border: 10px solid #AD91CA;
+  background-color: #FF98C0;
+  border-radius: 50%;
+}
