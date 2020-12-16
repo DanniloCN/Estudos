@@ -1,7 +1,10 @@
 .container, 
-.balloon,
-.balloon::after, 
-.balloon::before {
+.balao,
+.balao::after, 
+.balao::before,
+.cesta,
+.cesta::after,
+.cesta::before {
 
   position: absolute;
   margin: auto;
@@ -18,7 +21,7 @@
   border-radius: 50%;
 }
 
-.balloon {
+.balao {
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -27,7 +30,7 @@
   border: 10px solid #AD91CA;
 }
 
-.balloon::before{
+.balao::before{
   content: '';
   height: 300px;
   width: 190px;
@@ -36,11 +39,29 @@
   border-radius: 50%;
 }
 
-.balloon::after{
+.balao::after{
   content: '';
   height: 300px;
   width: 60px;
   border: 10px solid #AD91CA;
   background-color: #FF98C0;
   border-radius: 50%;
+}
+
+.cesta {
+  height: 45px;
+  width: 65px;
+  background-color: #AD91CA;
+  border-radius: 4px;
+  top: 290px;
+}
+
+.cesta::before {
+  content: '';
+  background-color: #AD91CA;
+  height: 10px;
+  width: 75px;
+  top: -50px;
+  left: -5px;
+  border-radius: 15%;
 }
